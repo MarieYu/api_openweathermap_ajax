@@ -1,0 +1,56 @@
+/**styles.css*/
+body{
+	padding: 50px;
+}
+
+ul{
+	display: inline-block;
+}
+
+span{
+	display: inline-block;
+}
+
+h3{
+	background-color: #65D9D9;
+}
+
+/*Météo du jour*/
+#cityWeather{
+	display: flex;
+	align-items: center;
+}
+
+li{
+	font-size: 1.3em;
+}
+
+p{
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#iconCurrentDay{
+	width: 200px;
+	height: auto;
+}
+
+/*pour les prévisions*/
+figure{
+	display : inline-block;
+	padding: 50px;
+	}
+
+.iconWeather{
+	width: 100px;
+	height: auto;
+	}
+
+#cityWeather{
+	border-style: solid, 2px, #65D9D9; 
+}
+
+figcaption{
+	font-weight: bold;
+	text-align: center;
+}
